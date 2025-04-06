@@ -1,0 +1,130 @@
+Oct 07 13:07:45.841 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Oct 07 13:07:45.849 HYPERVISOR: Started on IP = localhost, TCP port = 50267.
+Oct 07 13:07:46.307 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 07 13:07:46.307 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\FP\Documents\Multicast_traffic\project-files\dynamips 
+Oct 07 13:07:46.307 GENERAL: working_dir=C:\Users\FP\Documents\Multicast_traffic\project-files\dynamips
+Oct 07 13:07:46.307 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\FP\Documents\Multicast_traffic\project-files\dynamips\715d4c45-50f8-47be-9fff-ef44ec64bee5 
+Oct 07 13:07:46.315 GENERAL: working_dir=C:\Users\FP\Documents\Multicast_traffic\project-files\dynamips\715d4c45-50f8-47be-9fff-ef44ec64bee5
+Oct 07 13:07:46.315 HYPERVISOR: exec_cmd: vm create R3 3 c7200 
+Oct 07 13:07:46.323 VM: VM R3 created.
+Oct 07 13:07:46.323 HYPERVISOR: exec_cmd: vm set_con_tcp_port R3 5002 
+Oct 07 13:07:46.323 HYPERVISOR: exec_cmd: c7200 get_mac_addr R3 
+Oct 07 13:07:46.323 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 07 13:07:46.323 HYPERVISOR: exec_cmd: vm slot_add_binding R3 0 0 C7200-IO-FE 
+Oct 07 13:07:46.323 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/FP/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S6.image 
+Oct 07 13:07:46.323 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 07 13:07:46.323 HYPERVISOR: exec_cmd: vm set_idle_pc R3 0x61e09214 
+Oct 07 13:07:46.331 HYPERVISOR: exec_cmd: vm set_exec_area R3 64 
+Oct 07 13:07:46.331 HYPERVISOR: exec_cmd: vm set_ram R3 512 
+Oct 07 13:07:46.331 HYPERVISOR: exec_cmd: vm set_nvram R3 512 
+Oct 07 13:07:46.331 HYPERVISOR: exec_cmd: vm set_disk0 R3 0 
+Oct 07 13:07:46.331 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 07 13:07:46.331 HYPERVISOR: exec_cmd: vm slot_add_binding R3 1 0 PA-GE 
+Oct 07 13:07:46.331 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 07 13:07:46.339 HYPERVISOR: exec_cmd: vm slot_add_binding R3 2 0 PA-GE 
+Oct 07 13:07:46.340 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 07 13:07:46.340 HYPERVISOR: exec_cmd: vm slot_add_binding R3 3 0 PA-GE 
+Oct 07 13:07:46.340 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 07 13:07:46.340 HYPERVISOR: exec_cmd: vm slot_add_binding R3 4 0 PA-GE 
+Oct 07 13:07:46.340 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 07 13:07:46.340 HYPERVISOR: exec_cmd: vm slot_add_binding R3 5 0 PA-GE 
+Oct 07 13:07:46.340 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 07 13:07:46.340 HYPERVISOR: exec_cmd: vm slot_add_binding R3 6 0 PA-GE 
+Oct 07 13:07:46.463 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/FP/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S6.image 
+Oct 07 13:07:56.648 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/FP/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S6.image 
+Oct 07 13:13:08.806 HYPERVISOR: exec_cmd: nio create_udp udp-e81cf328-d37a-4f30-b56c-56f76fed08f1 20010 127.0.0.1 20011 
+Oct 07 13:13:09.658 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 1 0 udp-e81cf328-d37a-4f30-b56c-56f76fed08f1 
+Oct 07 13:13:09.658 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 07 13:13:23.586 HYPERVISOR: exec_cmd: nio create_udp udp-d0bde745-7b9c-4e99-920f-8d8d6f6f9c66 20014 127.0.0.1 20015 
+Oct 07 13:13:23.605 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 2 0 udp-d0bde745-7b9c-4e99-920f-8d8d6f6f9c66 
+Oct 07 13:13:23.605 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 07 13:15:06.817 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/FP/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S6.image 
+Oct 07 13:16:01.043 HYPERVISOR: exec_cmd: vm set_ghost_status R3 2 
+Oct 07 13:16:01.063 HYPERVISOR: exec_cmd: vm set_ghost_file R3 C:\Users\FP\Documents\Multicast_traffic\project-files\dynamips\c7200-advipservicesk9-mz.152-4.S6.image-512.ghost 
+Oct 07 13:16:01.064 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 07 13:16:01.092 HYPERVISOR: exec_cmd: vm set_config R3 configs\i3_startup-config.cfg 
+Oct 07 13:16:01.092 HYPERVISOR: exec_cmd: vm start R3 
+Oct 07 13:16:31.530 HYPERVISOR: exec_cmd: vm extract_config R3 
+Oct 07 13:16:32.711 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 07 13:16:32.737 HYPERVISOR: exec_cmd: vm set_idle_pc_online R3 0 0x6318a8d4 
+Oct 07 13:17:10.913 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 07 13:17:10.927 HYPERVISOR: exec_cmd: vm set_idle_pc_online R3 0 0x61e09210 
+Oct 07 13:17:19.855 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 07 13:17:19.855 HYPERVISOR: exec_cmd: vm set_idle_pc_online R3 0 0x0 
+Oct 07 13:17:19.856 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 07 13:17:19.858 HYPERVISOR: exec_cmd: vm get_idle_pc_prop R3 0 
+Oct 07 13:17:40.688 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 07 13:17:40.705 HYPERVISOR: exec_cmd: vm set_idle_pc_online R3 0 0x62cc3334 
+Oct 07 13:18:05.494 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 07 13:18:05.494 HYPERVISOR: exec_cmd: vm set_idle_pc_online R3 0 0x6318a8ac 
+Oct 07 13:18:44.292 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 07 13:18:44.295 HYPERVISOR: exec_cmd: vm set_idle_pc_online R3 0 0x61e09214 
+Oct 07 13:19:31.870 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 07 13:19:31.872 HYPERVISOR: exec_cmd: vm set_idle_pc_online R3 0 0x62cc3334 
+Oct 07 13:21:00.649 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 07 13:21:00.653 HYPERVISOR: exec_cmd: vm set_idle_pc_online R3 0 0x61e09210 
+Oct 07 13:21:29.403 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 07 13:21:29.420 HYPERVISOR: exec_cmd: vm set_idle_pc_online R3 0 0x61e09214 
+Oct 07 13:22:17.285 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 07 13:22:17.315 HYPERVISOR: exec_cmd: vm set_idle_pc_online R3 0 0x6318a8ac 
+Oct 07 13:23:33.383 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 07 13:23:33.397 HYPERVISOR: exec_cmd: vm set_idle_pc_online R3 0 0x61e09214 
+Oct 07 13:25:21.222 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 07 13:25:21.230 HYPERVISOR: exec_cmd: vm set_idle_pc_online R3 0 0x6318a8ac 
+Oct 07 13:27:12.481 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 07 13:27:12.495 HYPERVISOR: exec_cmd: vm set_idle_pc_online R3 0 0x62cc3334 
+Oct 07 13:28:39.466 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 07 13:28:39.466 HYPERVISOR: exec_cmd: vm stop R3 
+Oct 07 13:28:39.640 VM: VM R3 shutdown.
+Oct 07 13:28:39.640 HYPERVISOR: exec_cmd: vm extract_config R3 
+Oct 07 13:28:43.076 HYPERVISOR: exec_cmd: vm set_ghost_status R3 2 
+Oct 07 13:28:43.078 HYPERVISOR: exec_cmd: vm set_ghost_file R3 C:\Users\FP\Documents\Multicast_traffic\project-files\dynamips\c7200-advipservicesk9-mz.152-4.S6.image-512.ghost 
+Oct 07 13:28:43.079 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 07 13:28:43.094 HYPERVISOR: exec_cmd: vm set_config R3 configs\i3_startup-config.cfg 
+Oct 07 13:28:43.096 HYPERVISOR: exec_cmd: vm start R3 
+Oct 07 13:29:17.744 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 07 13:29:17.744 HYPERVISOR: exec_cmd: vm stop R3 
+Oct 07 13:29:17.902 VM: VM R3 shutdown.
+Oct 07 13:29:17.902 HYPERVISOR: exec_cmd: vm extract_config R3 
+Oct 07 13:30:25.422 HYPERVISOR: exec_cmd: vm set_ghost_status R3 2 
+Oct 07 13:30:25.455 HYPERVISOR: exec_cmd: vm set_ghost_file R3 C:\Users\FP\Documents\Multicast_traffic\project-files\dynamips\c7200-advipservicesk9-mz.152-4.S6.image-512.ghost 
+Oct 07 13:30:25.457 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 07 13:30:25.496 HYPERVISOR: exec_cmd: vm set_config R3 configs\i3_startup-config.cfg 
+Oct 07 13:30:25.497 HYPERVISOR: exec_cmd: vm start R3 
+Oct 07 13:31:08.093 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 07 13:31:08.122 HYPERVISOR: exec_cmd: vm set_idle_pc_online R3 0 0x6318a8ac 
+Oct 07 13:31:56.106 HYPERVISOR: exec_cmd: nio create_udp udp-c5e8771c-6c5b-4923-98e8-d3a500ce96e0 20056 127.0.0.1 20057 
+Oct 07 13:31:56.114 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 3 0 udp-c5e8771c-6c5b-4923-98e8-d3a500ce96e0 
+Oct 07 13:31:56.114 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 07 13:31:56.114 HYPERVISOR: exec_cmd: vm slot_enable_nio R3 3 0 
+Oct 07 13:32:01.951 HYPERVISOR: exec_cmd: nio create_udp udp-7e7856ac-ab41-445b-bbb3-d7ce42b008fb 20062 127.0.0.1 20063 
+Oct 07 13:32:01.956 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 4 0 udp-7e7856ac-ab41-445b-bbb3-d7ce42b008fb 
+Oct 07 13:32:01.957 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 07 13:32:01.958 HYPERVISOR: exec_cmd: vm slot_enable_nio R3 4 0 
+Oct 07 13:32:31.796 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 07 13:32:31.796 HYPERVISOR: exec_cmd: vm set_idle_pc_online R3 0 0x0 
+Oct 07 13:32:31.804 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 07 13:32:31.804 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 07 13:32:31.804 HYPERVISOR: exec_cmd: vm get_idle_pc_prop R3 0 
+Oct 07 13:32:48.118 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 07 13:32:48.119 HYPERVISOR: exec_cmd: vm set_idle_pc_online R3 0 0x63188e04 
+Oct 07 13:32:48.120 HYPERVISOR: exec_cmd: vm cpu_usage R3 0 
+Oct 07 13:32:51.120 HYPERVISOR: exec_cmd: vm cpu_usage R3 0 
+Oct 07 13:34:29.461 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 07 13:34:29.501 HYPERVISOR: exec_cmd: vm set_idle_pc_online R3 0 0x6318a8ac 
+Oct 07 13:35:25.519 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 07 13:35:25.520 HYPERVISOR: exec_cmd: vm set_idle_pc_online R3 0 0x62cc3334 
+Oct 07 13:36:51.389 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 07 13:36:51.429 HYPERVISOR: exec_cmd: vm set_idle_pc_online R3 0 0x63188e04 
+Oct 07 13:39:02.140 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 07 13:39:02.140 HYPERVISOR: exec_cmd: vm stop R3 
+Oct 07 13:39:02.336 VM: VM R3 shutdown.
+Oct 07 13:39:02.337 HYPERVISOR: exec_cmd: vm extract_config R3 
+Oct 07 13:41:00.302 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/FP/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S6.image 
+Oct 07 13:41:00.303 HYPERVISOR: exec_cmd: vm rename R3 P-Frankfurt 
+Oct 07 13:41:00.366 HYPERVISOR: exec_cmd: vm set_ios P-Frankfurt C:/Users/FP/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S6.image 
+Oct 07 13:52:24.936 HYPERVISOR: exec_cmd: vm set_ghost_status P-Frankfurt 2 
+Oct 07 13:52:24.945 HYPERVISOR: exec_cmd: vm set_ghost_file P-Frankfurt C:\Users\FP\Documents\Multicast_traffic\project-files\dynamips\c7200-advipservicesk9-mz.152-4.S6.image-512.ghost 
+Oct 07 13:52:24.946 HYPERVISOR: exec_cmd: vm get_status P-Frankfurt 
+Oct 07 13:52:24.956 HYPERVISOR: exec_cmd: vm set_config P-Frankfurt configs\i3_startup-config.cfg 
+Oct 07 13:52:24.956 HYPERVISOR: exec_cmd: vm start P-Frankfurt 

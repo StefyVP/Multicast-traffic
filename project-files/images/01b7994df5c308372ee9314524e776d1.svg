@@ -1,0 +1,31 @@
+<svg width="439" height="659"><text font-family="TypeWriter" font-size="10.0" font-weight="bold" fill="#000000" fill-opacity="1.0">Address allocation:
+PE_LA to P_NYC - 124.122.120.0/30
+PE_Rome to P_Frankfurt - 124.122.120.4/30      
+PE_Paris to P_Amsterdam - 124.122.120.8/30
+
+P_NYC to P_Frankfurt - 178.176.174.0/30              
+P_ Frankfurt to P_Amsterdam - 178.176.174.4/30
+P_Amsterdam to P_NYC - 178.176.174.8/30          
+                                                                                      
+PE_LA to P_NYC - 124.122.120.0/30
+PE_Rome to P_Frankfurt - 124.122.120.4/30
+PE_Paris to P_Amsterdam - 124.122.120.8/30
+
+P_NYC to RP - 172.170.168.0/30
+P_Frankfurt to RP - 172.170.168.4/30
+P_Amsterdam to RP - 172.170.168.8/30
+
+CE to PE - 130.128.126.x/27
+
+Loopback interfaces:
+PE_LA - 123.122.121.1/32
+PE_Rome - 123.122.121.2/32
+PE_Paris - 123.122.121.3/32
+P_NYC - 123.122.121.4/32
+P_Frankfurt - 123.122.121.5/32
+P_Amsterdam - 123.122.121.6/32
+RP - 123.122.121.7/32
+
+CE_Las Vegas - 192.168.1.1/32
+CE_Milan - 192.168.2.1/32
+CE_Madrid - 192.168.3.1/32</text></svg>
